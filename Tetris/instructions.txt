@@ -2,12 +2,6 @@ Tetris
 -------------------------------
 Dokumentaatio
 -------------------------------
-* Name: Eemil Määttä
-* Student number: 284283
-* UserID: maatta5
-* E-Mail: eemil.maatta@tuni.fi
--------------------------------
-
 
 Säännöt
 --------
@@ -39,27 +33,6 @@ metodia. Metodissa luodaan uusi palikka ja valmistellaan se siirtoa varten.
 Palikka liikkuu pelilaudalla niin kauan, kunnes se pysähtyy joko pelialueen
 reunaan tai osuu jo pelattuun palikkaan. Täysinäisten rivien poisto ja pelin
 päättyminen on otettu huomioon koodissa.
-
-
-Minimivaatimukset
-------------------
-Peli sisältää kaikki vaaditut minimivaatimukset.
-
-
-Lisäominaisuudet
------------------
-Peli sisältää seuraavat lisäominaisuudet:
-- Peliin on toteutettu kaikki seitsemän erilaista tetrominoa.
-- Jo pysähtynyttä tetrominoa pystyy liikuttamaan sivusuunnassa jos mahdollista.
-- Täysinäiset vaakarivit poistetaan.
-- Pelissä käytetty aika lasketaan. Pelin aikana kerrotaan siihen mennessä kulunut aika.
-- Pelissä on pistelasku joka ilmoitetaan käyttäjälle.
-- Pelissä on erilaisia vaikeustasoja.
-- Tetrominojen putoaminen nopeutuu automaattisesti pelin edetessä.
-- Pelin päätyttyä (tai muutenkin) peliasetelman voi palauttaa alkutilanteeseen.
-- Peli sisältää tulostaulun, johon tallentuu pelaajan saamat pisteet.
-- Putoavan tetrominon pystyy pudottamaan kerralla niin alas kuin mahdollista
-- Pelissä on mahdollista pitää tauko, ja jatkaa pelaamista myöhemmin.
 
 
 
