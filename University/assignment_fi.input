@@ -1,0 +1,27 @@
+aa "Teemu Teekkari" teemu.teekkari@tuni.fi
+aa "Aatu Arkkari" aatu.arkkari@tuni.fi
+aa "Olli Opettaja" olli.opettaja@tuni.fi
+aa "Essi Esimerkki" essi.esimerkki@tuni.fi
+nc TIE-02200 "Ohjelmointi 2"
+nc TIE-02100 "Ohjelmointi 1"
+nc TIE-02400 "Ohjelmointi 3"
+ai TIE-02200 K2020
+ai TIE-02100 K2020
+ai TIE-02200 S2019
+as TIE-02200 111114
+as TIE-02100 111113
+s TIE-02200 K2020 111111
+s TIE-02100 K2020 111111
+s TIE-02200 K2020 111112
+s TIE-02200 S2019 111112
+c TIE-02200 S2019 111112
+c TIE-02100 K2020 111111
+c TIE-02200 K2020 111111
+d 1 04 2020
+d 6 1 2020
+a
+ab 7
+ab 0
+ai TIE-02400 K2020
+a
+q
