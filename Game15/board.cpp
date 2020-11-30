@@ -1,14 +1,3 @@
-/* Game15 (or puzzle 15):
- *
- * Class: Board
- *
- * Program author
- * Name: Eemil Määttä
- * Student number: 284283
- * UserID: maatta5
- * E-Mail: eemil.maatta@tuni.fi
- * */
-
 #include "board.hh"
 #include <iostream>
 #include <iomanip>
