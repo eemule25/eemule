@@ -1,15 +1,3 @@
-/* Game15 (or puzzle 15):
- *
- * Class: Board
- * Describes a two-dimensional grid for puzzle 15 with necessary functions.
- *
- * Program author
- * Name: Eemil Määttä
- * Student number: 284283
- * UserID: maatta5
- * E-Mail: eemil.maatta@tuni.fi
- * */
-
 #ifndef BOARD_HH
 #define BOARD_HH
 #include <vector>
