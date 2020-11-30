@@ -1,0 +1,66 @@
+Tetris
+-------------------------------
+Dokumentaatio
+-------------------------------
+* Name: Eemil Määttä
+* Student number: 284283
+* UserID: maatta5
+* E-Mail: eemil.maatta@tuni.fi
+-------------------------------
+
+
+Säännöt
+--------
+Pelissä on seitsemän erilaista palikkaa, joita ilmestyy automaattisesti
+pelilaudalle aina edellisen pysähdyttyä. Pelaaja voi ohjata näitä palikoita
+näppäimillä: A (vasemmalle), S (nopeuttaa alaspäin) ja D (oikealle).
+Välilyöntiä (Space) painamalla palikan voi tiputtaa suoraan alaspäin.
+Palikoita voi siirtää hetken ajan myös niiden ollessa paikallaan.
+
+Pelissä on tarkoituksena kerätä mahdollisimman paljon pisteitä.
+Pisteitä saa pelatuista palikoista sekä täysien rivien poistamisesta.
+Peli nopeutuu automaattisesti ja samalla sen vaikeustaso kasvaa hiljalleen.
+Alussa pelaaja voi halutessaan valita vaikeustason (helppo, normaali, vaikea).
+Peli päättyy kun pelialueelle ei enää mahdu uusia palikoita.
+
+Pelaajan keräämät pisteet tallennetaan tulostaulukkoon (leaderboard),
+jossa on näkyvissä kaikki siihen asti pelatut pelit. Pelaaja voi pelin aikana
+pitää tauon (pause), jolloin peliaika keskeytyy, kunnes peliä taas jatketaan.
+Halutessaan pelin voi myös nollata (reset), eli peli palautetaan takaisin
+alkutilaan.
+
+
+Ohjelman rakenne ja suunnittelu
+--------------------------------
+Koodipohjassa on luotu pelialue, missä putoavat palikat liikkuvat. Jokaiselle
+seitsemälle palikalle on luotu oma metodi, jota tarpeen tullessa kutsutaan.
+Randomgeneraattori arpoo jonkin palikoista, joka taas kutsuu sitä vastaavaa
+metodia. Metodissa luodaan uusi palikka ja valmistellaan se siirtoa varten.
+Palikka liikkuu pelilaudalla niin kauan, kunnes se pysähtyy joko pelialueen
+reunaan tai osuu jo pelattuun palikkaan. Täysinäisten rivien poisto ja pelin
+päättyminen on otettu huomioon koodissa.
+
+
+Minimivaatimukset
+------------------
+Peli sisältää kaikki vaaditut minimivaatimukset.
+
+
+Lisäominaisuudet
+-----------------
+Peli sisältää seuraavat lisäominaisuudet:
+- Peliin on toteutettu kaikki seitsemän erilaista tetrominoa.
+- Jo pysähtynyttä tetrominoa pystyy liikuttamaan sivusuunnassa jos mahdollista.
+- Täysinäiset vaakarivit poistetaan.
+- Pelissä käytetty aika lasketaan. Pelin aikana kerrotaan siihen mennessä kulunut aika.
+- Pelissä on pistelasku joka ilmoitetaan käyttäjälle.
+- Pelissä on erilaisia vaikeustasoja.
+- Tetrominojen putoaminen nopeutuu automaattisesti pelin edetessä.
+- Pelin päätyttyä (tai muutenkin) peliasetelman voi palauttaa alkutilanteeseen.
+- Peli sisältää tulostaulun, johon tallentuu pelaajan saamat pisteet.
+- Putoavan tetrominon pystyy pudottamaan kerralla niin alas kuin mahdollista
+- Pelissä on mahdollista pitää tauko, ja jatkaa pelaamista myöhemmin.
+
+
+
+
