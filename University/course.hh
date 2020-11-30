@@ -1,11 +1,7 @@
 /* Class: Course
- * ----------
- * TIE-02201/TIE-02207 SPRING 2020
- * ----------
+ *
  * Class that represents a single course, with name and code,
  * staff and instances.
- *
- * Note: Students shouldn't need to make changes to this file.
  * */
 #ifndef COURSE_HH
 #define COURSE_HH
