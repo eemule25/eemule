@@ -4,11 +4,6 @@
  * This project code includes a tetris game
  * where the user controls various tetrominos on the game board.
  *
- * Program author:
- * Name: Eemil Määttä
- * Student number: 284283
- * UserID: maatta5
- * E-Mail: eemil.maatta@tuni.fi
  * */
 
 #include "mainwindow.hh"
