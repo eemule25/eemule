@@ -4,12 +4,6 @@
  * This program reads the product selection data of different chain stores from
  * a file at startup, stores them in a suitable data structure,
  * and gives the user the opportunity to search the data structure in question.
- *
- * Program author
- * Name: Eemil Määttä
- * Student number: 284283
- * UserID: maatta5
- * E-Mail: eemil.maatta@tuni.fi
  * */
 
 #include <iostream>
