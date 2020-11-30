@@ -8,12 +8,6 @@
  * starting from top left and proceeding row by row.
  * Empty space is represented by the number 16 in the code (constant EMPTY)
  * and by dot when printing the game board.
- *
- * Program author
- * Name: Eemil Määttä
- * Student number: 284283
- * UserID: maatta5
- * E-Mail: eemil.maatta@tuni.fi
  * */
 
 #include "board.hh"
